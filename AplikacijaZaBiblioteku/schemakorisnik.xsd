@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<xs:element name="korisnik">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="ime" type="xs:string"/>
+			<xs:element name="prezime" type="xs:string"/>
+			<xs:element name="datumRodenja" type="xs:string"/>
+			<xs:element name="brojTelefona" type="xs:int"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+
+</xs:schema>

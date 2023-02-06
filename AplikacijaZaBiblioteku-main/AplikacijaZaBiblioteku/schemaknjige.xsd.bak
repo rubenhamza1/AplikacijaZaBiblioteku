@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<xs:schema>
+
+<xs:element name="knjiga">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="naslov" type="xs:string"/>
+			<xs:element name="autor" type="xs:string"/>
+			<xs:element name="datumPosudbe" type="xs:string"/>
+			<xs:element name="dostupnost" type="xs:boolean"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+
+</xs:schema>
